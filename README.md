@@ -1,0 +1,1 @@
+# VivaldiBlur-theme
