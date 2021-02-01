@@ -94,7 +94,7 @@ body {
 #browser.linux.alt #tabs-container.top {
     padding-left: 32px;
 }
-
+/* 
 .tabs-top .tab.active:not(.marked):not(.tab-mini):before,
 .tabs-bottom .tab.active:not(.marked):not(.tab-mini):before {
     width: 11px;
@@ -117,6 +117,16 @@ body {
         rgba(0, 0, 0, 0) 70%,
         #000 73%
     );
+} */
+
+.tabs-top .tab.active:not(.marked):not(.tab-mini):before,
+.tabs-bottom .tab.active:not(.marked):not(.tab-mini):before,
+.tabs-top .tab.active:not(.marked):not(.tab-mini):after,
+.tabs-bottom .tab.active:not(.marked):not(.tab-mini):after {
+    display: none;
+}
+.tabs-top .tab-position .tab {
+    border-radius: 0;
 }
 
 @-webkit-keyframes fromTop {
